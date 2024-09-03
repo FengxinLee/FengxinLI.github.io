@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ruohan Zhan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-white w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="my2.JPG" style="width:90%;" class="w3-round"><br><br>
+    <p>Assistant Professor</p> 
+    <p>Department of Industrial Engineering and Decision Analytics</p>
+    <p>Hong Kong University of Science and Technology </p>
+    <p class="w3-text-grey"> <tt>&#114;&#104;&#122;&#104;&#097;&#110;&#064;&#117;&#115;&#116;&#046;&#104;&#107;</tt></p>
+    <p class="w3-text-grey"> Clear Water Bay, Kowloon, Hong Kong SAR, P. R. China </p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-book fa-fw w3-margin-right"></i>RESEARCH</a> 
+      <a href="#teaching" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-solid fa-graduation-cap fa-fw w3-margin-right"></i>TEACHING</a> 
+    <!-- <a href="CV.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file-o fa-fw w3-margin-right"></i>CV</a> -->
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="about">
+  <!-- About -->
+    <a href="#"><img src="my.jpeg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h1><b>Ruohan Zhan</b></h1>
+    <p> I am an assistant professor of <a href="https://www.ieda.ust.hk/eng/index.php">Industrial Engineering and Decision Analytics</a> at the Hong Kong University of Science and Technology. 
+        My primary research interest lies in the understanding and optimization of online marketplaces. I study the causal evaluation of marketplace interventions,  economic analysis of the dynamics and interactions among multiple stakeholders, and  optimization of platform operations, including recommendation algorithms and digital experimentation.
+       Methodologically, I am interested in causal inference, econometrics, statistical learning and machine learning.   
+        
+      <!--develops methods to innovate data-driven decision making using tools from  causal inference, statistics, and machine learning, with particular interest in problems from platform operations and economics. -->
+	</p>
+
+    <p> Previously, I received my BS in mathematics from Peking University (2017), my MS in statistics and PhD in computational and applied mathematics from Stanford University (2021), where my doctoral research was advised by <a href="https://athey.people.stanford.edu">Susan Athey</a>. I was a postdoc fellow at Stanford Graduate School of Business in the <a href="https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil">Golub Capital Social Impact Lab</a> (2022). I have also spent the summers of 2019 and 2020 at Google Research and have worked full-time at Kuaishou Technology during 2021-2022.
+    </p>
+
+    <!-- <p> Outside of work, I enjoy exploring the local and being out in nature. </p> -->
+     
+<!--      <br>  -->
+      
+<!--     <h4><b>NEWS</b><i class="fa fa-rss fa-fw w3-margin-right"></i></h4> 
+     <ul>
+     <li><strong>Oct 2023:</strong> I shall be chairing a session on <a href="https://www.abstractsonline.com/pp8/?__hstc=194041586.c8ec2699eec3a5c94b84c660743144d2.1689039139675.1696161003833.1696210603227.22&__hssc=194041586.3.1696210603227&__hsfp=301383709&hsCtaTracking=8f511889-324a-41b3-a438-37ad295392e9%7C0c80c5d7-cc8d-4989-9b70-52de4c44b90b#!/10856/session/653"> Learning for Platform Operations </a> at INFORMS 2023 in Phoenix. Swing by if you're curious or just want to say hi! </li>     
+     <li><strong>Feb 2023:</strong> New paper on <a href="https://arxiv.org/abs/2302.08854">Post-Episodic Reinforcement Learning Inference</a> posted on arxiv.</li>
+      </ul> -->
+</div>
+     
+      
+      
+      
+</header>
+    
+    
+
+  <!-- Research -->
+  <div class="w3-container w3-padding-large" id="research" style="margin-bottom:32px">
+      <h2><b>RESEARCH</b></h2>
+     
+      <h3><b>Causal Evaluation, Policy Targeting, and Experimentation</b></h3>
+       <p><b>Estimating Treatment Effects under Recommender Interference: A Structured Neural Networks Approach</b>. [<a href="https://arxiv.org/abs/2406.14380">arxiv</a>]
+       <br>
+           Ruohan Zhan, Shichao Han, Yuchen Hu, Zhenling Jiang. 
+         <br> Extended abstract appeared in ACM Conference on Economics and Computation (EC'24). Working Paper. 
+      </p>
+      
+      <p><b>Post-Episodic Reinforcement Learning Inference</b>. [<a href="https://arxiv.org/abs/2302.08854">arxiv</a>]
+       <br>
+           Vasilis Syrgkanis, Ruohan Zhan. 
+         <br> Working Paper. 
+      </p>
+      
+      
+      
+      <p><b>Policy Learning with Adaptively Collected Data</b>. [<a href="https://arxiv.org/abs/2105.02344">arxiv</a>, <a href="https://github.com/gsbDBI/PolicyLearning">software</a>]
+      <br>Ruohan Zhan, Zhimei Ren, Susan Athey, Zhengyuan Zhou.
+      <br>
+       Management Science.  2023.
+      </p>
+      
+      <p><b>Proportional Response: Contextual Bandits for Simple and Cumulative Regret Minimization</b>. [<a href="https://arxiv.org/abs/2307.02108">arxiv</a>]
+      <br>Sanath Kumar Krishnamurthy, Ruohan Zhan, Susan Athey, Emma Brunskill.
+      <br>
+       Conference on Neural Information Processing Systems (NeurIPS) 2023.
+      </p>
+            
+      <p><b>Confidence intervals for policy evaluation in adaptive experiments</b>. [<a href="https://arxiv.org/abs/1911.02768">arxiv</a>, <a href="https://github.com/gsbDBI/adaptive-confidence-intervals">software</a>]
+      <br>
+      Vitor Hadad, David A. Hirshberg, Ruohan Zhan, Stefan Wager, Susan Athey.
+      <br>
+      Proceedings of the National Academy of Sciences 118.15, 2021.
+      </p>
+  
+      
+            <p><b>Off-Policy Evaluation via Adaptive Weighting with Data from Contextual Bandits</b>. [<a href="https://arxiv.org/abs/2106.02029">arxiv</a>, <a href="https://github.com/gsbDBI/contextual_bandits_evaluation">software</a>]
+      <br> 
+      Ruohan Zhan, Vitor Hadad, David A. Hirshberg, Susan Athey.
+      <br>
+      Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2021.
+      </p>
+      
+      <br>
+      
+      <h3><b>Machine Learning and Recommender Systems</b></h3>
+      
+
+      <p><b>Adaptively Learning to Select-Rank in Online Platforms</b>. [<a href="https://arxiv.org/abs/2406.05017">arxiv</a>]
+      <br> 
+      Jingyuan Wang, Perry Dong, Ying Jin, Ruohan Zhan, Zhengyuan Zhou.
+      <br>
+      Short version accepted by International Conference on Machine Learning (ICML) 2024. Working Paper.
+      </p>
+      
+      <p><b>Statistical Properties of Robust Satisficing</b>. [<a href="https://arxiv.org/abs/2405.20451">arxiv</a>]
+      <br> 
+      Zhiyi Li, Yunbei Xu, Ruohan Zhan.
+      <br>
+      Short version accepted by International Conference on Machine Learning (ICML) 2024. Working Paper.
+      </p>
+      
+            
+      <p><b>ResAct: Reinforcing Long-term Engagement in Sequential Recommendation with Residual Actor</b>. [<a href="https://arxiv.org/abs/2206.02620">arxiv</a>]
+      <br> 
+      Wanqi Xue, Qingpeng Cai, Ruohan Zhan, Dong Zheng, Peng Jiang, Kun Gai, Bo An.
+      <br>
+      International Conference on Learning Representations (ICLR) 2023.
+      </p>
+      
+      <p><b>Two-Stage Constrained Actor-Critic for Short Video Recommendation</b>. [<a href="https://arxiv.org/abs/2205.13248">arxiv</a>]
+      <br> 
+      Qingpeng Cai, Zhenghai Xue, Chi Zhang, Wanqi Xue, Shuchang Liu, Ruohan Zhan, Xueliang Wang, Tianyou Zuo, Wentao Xie, Dong Zheng, Peng Jiang, Kun Gai.
+      <br>
+      Proceedings of the Web Conference (WWW) 2023.
+      </p>
+      
+      
+      
+      <p><b>Deconfounding Duration Bias in Watch-time Prediction for Video Recommendation</b>. [<a href="https://arxiv.org/abs/2206.06003">arxiv</a>]
+      <br> 
+      Ruohan Zhan, Changhua Pei, Qiang Su, Jianfeng Wen, Xueliang Wang, Guanyu Mu, Dong Zheng, Peng Jiang.
+      <br>
+      Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2022.
+      </p>
+      
+      <p><b>Beyond Central Limit Theorem for Higher-Order Inference in Batched Bandits</b>.
+      <br> 
+      Yechan Park, Ruohan Zhan, Nakahiro Yoshida.
+      <br>
+      NeurIPS Workshop on Causality for Real-world Impact, 2022.
+      </p>
+      
+
+
+      <p><b>Towards Content Provider Aware Recommender Systems: A Simulation Study on the Interplay between User and Provider Utilities</b>. [<a href="https://arxiv.org/abs/2105.02377">arxiv</a>, <a href="https://github.com/google-research/google-research/tree/master/recs_ecosystem_creator_rl">software</a>]
+      <br>
+      Ruohan Zhan, Konstantina Christakopoulou, Ya Le, Jayden Ooi, Martin Mladenov, Alex Beutel, Craig Boutilier, Ed Chi, Minmin Chen.
+      <br>
+      Proceedings of the Web Conference (WWW) 2021.
+      </p>
+      
+      <br>
+      
+      <h3><b>Earlier Years</b></h4>
+      
+      <p><b>
+      Distortion Agnostic Deep Watermarking.
+      </b> [<a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Luo_Distortion_Agnostic_Deep_Watermarking_CVPR_2020_paper.pdf">paper</a>]
+      <br>
+      Xiyang Luo, Ruohan Zhan, Huiwen Chang, Feng Yang, Peyman Milanfar.
+      <br>
+      Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.
+      </p>
+      
+
+      <p><b>
+      Machine learning for cardiac ultrasound time series data.
+      </b> [<a href="https://escholarship.org/content/qt15h378g9/qt15h378g9.pdf">paper</a>]
+      <br>
+      Baichuan Yuan, Sathya R Chitturi, Geoffrey Iyer, Nuoyu Li, Xiaochuan Xu, Ruohan Zhan, Rafael Llerena, Jesse T Yen, Andrea L Bertozzi.
+      <br>
+      Medical Imaging: Biomedical applications in molecular, structural, and functional imaging (SPIE) 2017.
+      </p>
+      
+      <p><b>CT image reconstruction by spatial-radon domain data-driven tight frame regularization</b>.
+        [<a href="https://arxiv.org/abs/1601.00811">arxiv</a>]
+        <br>
+        Ruohan Zhan, Bin Dong.
+        <br> SIAM Journal on Imaging Sciences 9 (3), 1063-1083, 2016.
+      </p>
+      
+      <br>
+  
+      
+
+  </div>
+    
+    
+   <!-- Teaching -->
+  <div class="w3-container w3-padding-large" id="teaching" style="margin-bottom:32px">
+      <h2><b>TEACHING</b></h2>
+      <p><b>IEDA3560: Predictive Analysis</b>. 
+          
+      <br>
+       This course focuses on how companies identify, evaluate, and capture decision analytic opportunities to create value. Basic analytic methods as well as real corporate cases studies will be covered. The analytical methods include ways to use data to develop insights and predictive capabilities using machine learning, data mining, and forecasting techniques. Some aspects of the use of optimization methods to support decision-making in the presence of a large number of alternatives and business constraints will be covered. The concepts learned in this class should help students identify opportunities in which decision analytics can be used to improve performance and support important decisions.
+     This course is usually offered for each spring semester. For current information, see <a href="https://prog-crs.hkust.edu.hk/ugcourse/2022-23/search?keyword=ieda3560">course catalog</a>.
+      </p>
+
+
+  </div>  
+  
+    
+  
+  <div class="w3-center w3-padding-24">Copyright &copy; 2024, Ruohan Zhan. All Rights Reserved.</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
+
